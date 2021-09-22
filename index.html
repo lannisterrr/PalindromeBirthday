@@ -5,8 +5,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <style>
+      body {
+        text-align: center;
+        margin-top: 10rem;
+        background-color: #5b6467;
+        background-image: linear-gradient(315deg, #5b6467 0%, #8b939a 74%);
+      }
+      input {
+        display: block;
+        margin: 0 auto;
+        padding: 0.3rem;
+        width: 15%;
+        outline: none;
+      }
+      button {
+        margin-top: 1.5rem;
+        padding: 0.7rem;
+        border-radius: 0.8rem;
+        background-color: #5b6467;
+        color: white;
+        cursor: pointer;
+      }
+      #heading {
+        position: relative;
+        bottom: 50px;
+      }
+
+      #output {
+        color: #06beb6;
+      }
+    </style>
   </head>
   <body>
+    <h1 id="heading">Check if your birthday is Palindrome or not</h1>
     <input type="date" id="date" />
     <button id="btn">Check Palindrome</button>
     <h1 id="output"></h1>
